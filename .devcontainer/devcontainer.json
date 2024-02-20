@@ -1,0 +1,32 @@
+{
+  "name": "Codespace",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/rust:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "denoland.vscode-deno",
+        "Vue.volar",
+        "Vue.vscode-typescript-vue-plugin",
+        "bradlc.vscode-tailwindcss",
+        "firsttris.vscode-jest-runner",
+        "tauri-apps.tauri-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "christian-kohler.path-intellisense",
+        "ritwickdey.LiveServer",
+        "esbenp.prettier-vscode",
+        "Gruntfuggly.todo-tree",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "runArgs": [
+    "--network=host"
+  ],
+  "remoteUser": "root"
+}
