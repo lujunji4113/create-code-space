@@ -4,6 +4,10 @@
     "dockerfile": "Dockerfile"
   },
   "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installOhMyZsh": "false",
+      "installOhMyZshConfig": "false"
+    },
     "ghcr.io/devcontainers/features/rust:1": {}
   },
   "customizations": {
@@ -25,8 +29,5 @@
       ]
     }
   },
-  "runArgs": [
-    "--network=host"
-  ],
   "remoteUser": "root"
 }
