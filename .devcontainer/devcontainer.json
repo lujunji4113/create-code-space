@@ -16,7 +16,6 @@
         "eamodio.gitlens",
         "denoland.vscode-deno",
         "Vue.volar",
-        "Vue.vscode-typescript-vue-plugin",
         "bradlc.vscode-tailwindcss",
         "firsttris.vscode-jest-runner",
         "tauri-apps.tauri-vscode",
